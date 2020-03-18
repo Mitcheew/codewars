@@ -1,8 +1,5 @@
-//https://www.codewars.com/kata/5704aea738428f4d30000914
-function tripleTrouble(one, two, three){
-    let solution = '';
-      for(let i = 0; i < one.length; i++){
-        solution += one[i] + two[i] + three[i]
-      }
-      return solution
-     }
+//https://www.codewars.com/kata/59ca8246d751df55cc00014c
+function hero(bullets, dragons){
+  return bullets / dragons >= 2;
+  }
+  
